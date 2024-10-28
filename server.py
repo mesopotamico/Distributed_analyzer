@@ -29,10 +29,10 @@ class Firewall:
 def main():
     handler_addresses = [
         ('127.0.0.1', 9001),  # IP y puerto del IPFilterHandler
-        ('192.168.1.11', 9002),  # IP y puerto del PortFilterHandler
-        ('192.168.1.12', 9003),  # IP y puerto del ProtocolFilterHandler
-        ('192.168.1.13', 9004),  # IP y puerto del LoggingHandler
-        ('192.168.1.14', 9005)   # IP y puerto del StatefulHandler
+        ('127.0.0.1', 9002),  # IP y puerto del PortFilterHandler
+        # ('192.168.1.12', 9003),  # IP y puerto del ProtocolFilterHandler
+        # ('192.168.1.13', 9004),  # IP y puerto del LoggingHandler
+        # ('192.168.1.14', 9005)   # IP y puerto del StatefulHandler
     ]
     response_port = 9999  # Puerto en el que el firewall escuchará las respuestas
 
