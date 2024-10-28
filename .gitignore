@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv.bak/
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba
+.test/
+*.log
+
+# Otros
+*.sqlite3
+*.pdb
